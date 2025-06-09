@@ -1,0 +1,80 @@
+2025-06-09 13:27:34,676 - PortScanner - INFO - setup_logging:49 - 日志系统初始化完成，日志级别: DEBUG
+2025-06-09 13:27:34,677 - PortScanner - INFO - setup_logging:52 - 操作系统: Linux 6.8.0-1024-aws (Linux-6.8.0-1024-aws-x86_64-with-glibc2.41)
+2025-06-09 13:27:34,677 - PortScanner - INFO - setup_logging:53 - Python版本: 3.13.3
+2025-06-09 13:27:34,677 - PortScanner - INFO - setup_logging:54 - 主机名: cursor
+2025-06-09 13:27:34,677 - PortScanner - INFO - setup_logging:55 - 当前用户: ubuntu
+2025-06-09 13:27:34,677 - PortScanner - INFO - setup_logging:56 - 工作目录: /workspace
+2025-06-09 13:27:34,677 - PortScanner - INFO - setup_logging:57 - 进程ID: 27778
+2025-06-09 13:27:34,678 - PortScanner - INFO - setup_logging:62 - CPU核心数: 16 (物理: 8)
+2025-06-09 13:27:34,678 - PortScanner - INFO - setup_logging:63 - 内存总量: 123.79 GB, 可用: 120.81 GB
+2025-06-09 13:27:34,678 - PortScanner - INFO - main:312 - ============================================================
+2025-06-09 13:27:34,678 - PortScanner - INFO - main:313 - 端口扫描工具启动
+2025-06-09 13:27:34,678 - PortScanner - INFO - main:314 - ============================================================
+2025-06-09 13:27:34,678 - PortScanner - DEBUG - main:315 - 命令行参数: {'port': None, 'name': 'node', 'all': False, 'log_level': 'DEBUG'}
+2025-06-09 13:27:34,778 - PortScanner - DEBUG - main:321 - 开始时CPU使用率: 1.2%
+2025-06-09 13:27:34,778 - PortScanner - DEBUG - main:322 - 开始时内存使用: 2.4%
+2025-06-09 13:27:34,778 - PortScanner - INFO - scan_ports:176 - 开始扫描端口，过滤条件 - 端口: None, 进程名: node
+2025-06-09 13:27:34,778 - PortScanner - INFO - scan_ports:180 - 当前用户权限: 普通用户
+2025-06-09 13:27:34,778 - PortScanner - WARNING - scan_ports:182 - 以普通用户权限运行，某些端口信息可能无法获取
+2025-06-09 13:27:34,778 - PortScanner - DEBUG - get_local_ip:123 - 开始获取本机IP地址
+2025-06-09 13:27:34,779 - PortScanner - DEBUG - get_local_ip:129 - 发现 2 个网络接口: ['lo', 'eth0']
+2025-06-09 13:27:34,779 - PortScanner - DEBUG - get_local_ip:133 - 网关信息: {'default': {2: ('172.17.0.1', 'eth0')}, 2: [('172.17.0.1', 'eth0', True)]}
+2025-06-09 13:27:34,779 - PortScanner - DEBUG - get_local_ip:150 - 默认网络接口: eth0
+2025-06-09 13:27:34,779 - PortScanner - INFO - get_local_ip:157 - 成功获取本机IP地址: 172.17.0.2 (耗时: 0.000秒)
+2025-06-09 13:27:34,779 - PortScanner - DEBUG - get_local_ip:161 - 子网掩码: 255.255.0.0
+2025-06-09 13:27:34,779 - PortScanner - DEBUG - get_local_ip:163 - 广播地址: 172.17.255.255
+2025-06-09 13:27:34,779 - PortScanner - DEBUG - scan_ports:191 - 开始获取网络连接列表
+2025-06-09 13:27:34,787 - PortScanner - INFO - scan_ports:197 - 获取到 15 个网络连接 (耗时: 0.008秒)
+2025-06-09 13:27:34,787 - PortScanner - DEBUG - scan_ports:228 - [1/15] 处理连接: sconn(fd=25, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='172.17.0.2', port=58326), raddr=addr(ip='44.194.66.232', port=443), status='ESTABLISHED', pid=26724)
+2025-06-09 13:27:34,787 - PortScanner - DEBUG - scan_ports:240 - 跳过非监听状态的连接: ESTABLISHED
+2025-06-09 13:27:34,787 - PortScanner - DEBUG - scan_ports:228 - [2/15] 处理连接: sconn(fd=-1, family=<AddressFamily.AF_INET6: 10>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='::ffff:172.17.0.2', port=26053), raddr=addr(ip='::ffff:172.17.0.1', port=54946), status='TIME_WAIT', pid=None)
+2025-06-09 13:27:34,787 - PortScanner - DEBUG - scan_ports:240 - 跳过非监听状态的连接: TIME_WAIT
+2025-06-09 13:27:34,787 - PortScanner - DEBUG - scan_ports:228 - [3/15] 处理连接: sconn(fd=19, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='0.0.0.0', port=26054), raddr=(), status='LISTEN', pid=1227)
+2025-06-09 13:27:34,787 - PortScanner - DEBUG - get_process_info:72 - 开始获取进程信息，PID: 1227
+2025-06-09 13:27:34,888 - PortScanner - DEBUG - get_process_info:106 - 成功获取进程信息 (耗时: 0.101秒): {'name': 'node', 'pid': 1227, 'create_time': '2025-06-09 10:18:30', 'status': 'sleeping', 'cpu_percent': 0.0, 'memory_mb': 96.9609375, 'memory_percent': 0.07649049928648004, 'num_threads': 11, 'cmdline': '/home/ubuntu/.cursor-server/bin/53b99ce608cba35127ae3a050c1738a959750860/node /home/ubuntu/.cursor-server/bin/53b99ce608cba35127ae3a050c1738a959750860/out/server-main.js --host=0.0.0.0...'}
+2025-06-09 13:27:34,888 - PortScanner - INFO - scan_ports:265 - 找到匹配的端口: 26054 - node (PID: 1227)
+2025-06-09 13:27:34,888 - PortScanner - DEBUG - scan_ports:266 -   详细信息 - CPU: 0.0%, 内存: 97.0MB (0.1%), 线程数: 11
+2025-06-09 13:27:34,888 - PortScanner - DEBUG - scan_ports:267 -   命令行: /home/ubuntu/.cursor-server/bin/53b99ce608cba35127ae3a050c1738a959750860/node /home/ubuntu/.cursor-server/bin/53b99ce608cba35127ae3a050c1738a959750860/out/server-main.js --host=0.0.0.0...
+2025-06-09 13:27:34,888 - PortScanner - DEBUG - scan_ports:228 - [4/15] 处理连接: sconn(fd=-1, family=<AddressFamily.AF_INET6: 10>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='::ffff:172.17.0.2', port=26053), raddr=addr(ip='::ffff:172.17.0.1', port=56550), status='TIME_WAIT', pid=None)
+2025-06-09 13:27:34,888 - PortScanner - DEBUG - scan_ports:240 - 跳过非监听状态的连接: TIME_WAIT
+2025-06-09 13:27:34,888 - PortScanner - DEBUG - scan_ports:228 - [5/15] 处理连接: sconn(fd=26, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='172.17.0.2', port=26054), raddr=addr(ip='172.17.0.1', port=55290), status='ESTABLISHED', pid=9385)
+2025-06-09 13:27:34,888 - PortScanner - DEBUG - scan_ports:240 - 跳过非监听状态的连接: ESTABLISHED
+2025-06-09 13:27:34,888 - PortScanner - DEBUG - scan_ports:228 - [6/15] 处理连接: sconn(fd=68, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='172.17.0.2', port=51718), raddr=addr(ip='44.198.79.119', port=443), status='ESTABLISHED', pid=26966)
+2025-06-09 13:27:34,888 - PortScanner - DEBUG - scan_ports:240 - 跳过非监听状态的连接: ESTABLISHED
+2025-06-09 13:27:34,888 - PortScanner - DEBUG - scan_ports:228 - [7/15] 处理连接: sconn(fd=24, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='172.17.0.2', port=43564), raddr=addr(ip='3.219.78.41', port=443), status='ESTABLISHED', pid=26724)
+2025-06-09 13:27:34,888 - PortScanner - DEBUG - scan_ports:240 - 跳过非监听状态的连接: ESTABLISHED
+2025-06-09 13:27:34,888 - PortScanner - DEBUG - scan_ports:228 - [8/15] 处理连接: sconn(fd=-1, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='172.17.0.2', port=44078), raddr=addr(ip='13.107.5.93', port=443), status='TIME_WAIT', pid=None)
+2025-06-09 13:27:34,888 - PortScanner - DEBUG - scan_ports:240 - 跳过非监听状态的连接: TIME_WAIT
+2025-06-09 13:27:34,888 - PortScanner - DEBUG - scan_ports:228 - [9/15] 处理连接: sconn(fd=19, family=<AddressFamily.AF_INET6: 10>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='::ffff:172.17.0.2', port=26053), raddr=addr(ip='::ffff:172.17.0.1', port=35294), status='ESTABLISHED', pid=859)
+2025-06-09 13:27:34,888 - PortScanner - DEBUG - scan_ports:240 - 跳过非监听状态的连接: ESTABLISHED
+2025-06-09 13:27:34,888 - PortScanner - DEBUG - scan_ports:228 - [10/15] 处理连接: sconn(fd=76, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='172.17.0.2', port=52860), raddr=addr(ip='104.18.18.125', port=443), status='ESTABLISHED', pid=26966)
+2025-06-09 13:27:34,888 - PortScanner - DEBUG - scan_ports:240 - 跳过非监听状态的连接: ESTABLISHED
+2025-06-09 13:27:34,888 - PortScanner - DEBUG - scan_ports:228 - [11/15] 处理连接: sconn(fd=23, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='172.17.0.2', port=51688), raddr=addr(ip='44.198.79.119', port=443), status='ESTABLISHED', pid=26724)
+2025-06-09 13:27:34,888 - PortScanner - DEBUG - scan_ports:240 - 跳过非监听状态的连接: ESTABLISHED
+2025-06-09 13:27:34,888 - PortScanner - DEBUG - scan_ports:228 - [12/15] 处理连接: sconn(fd=45, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='172.17.0.2', port=52466), raddr=addr(ip='107.23.90.119', port=443), status='ESTABLISHED', pid=9385)
+2025-06-09 13:27:34,888 - PortScanner - DEBUG - scan_ports:240 - 跳过非监听状态的连接: ESTABLISHED
+2025-06-09 13:27:34,888 - PortScanner - DEBUG - scan_ports:228 - [13/15] 处理连接: sconn(fd=21, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='172.17.0.2', port=26054), raddr=addr(ip='172.17.0.1', port=55284), status='ESTABLISHED', pid=1227)
+2025-06-09 13:27:34,888 - PortScanner - DEBUG - scan_ports:240 - 跳过非监听状态的连接: ESTABLISHED
+2025-06-09 13:27:34,888 - PortScanner - DEBUG - scan_ports:228 - [14/15] 处理连接: sconn(fd=66, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='172.17.0.2', port=36776), raddr=addr(ip='13.248.241.7', port=443), status='ESTABLISHED', pid=26966)
+2025-06-09 13:27:34,888 - PortScanner - DEBUG - scan_ports:240 - 跳过非监听状态的连接: ESTABLISHED
+2025-06-09 13:27:34,888 - PortScanner - DEBUG - scan_ports:228 - [15/15] 处理连接: sconn(fd=18, family=<AddressFamily.AF_INET6: 10>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='::', port=26053), raddr=(), status='LISTEN', pid=859)
+2025-06-09 13:27:34,888 - PortScanner - DEBUG - get_process_info:72 - 开始获取进程信息，PID: 859
+2025-06-09 13:27:34,989 - PortScanner - DEBUG - get_process_info:106 - 成功获取进程信息 (耗时: 0.100秒): {'name': 'node', 'pid': 859, 'create_time': '2025-06-09 10:18:13', 'status': 'sleeping', 'cpu_percent': 0.0, 'memory_mb': 89.07421875, 'memory_percent': 0.07026882826644124, 'num_threads': 11, 'cmdline': '/home/ubuntu/.vm-daemon/bin/vm-daemon/node /home/ubuntu/.vm-daemon/bin/vm-daemon/dist/index.cjs 26053...'}
+2025-06-09 13:27:34,989 - PortScanner - INFO - scan_ports:265 - 找到匹配的端口: 26053 - node (PID: 859)
+2025-06-09 13:27:34,989 - PortScanner - DEBUG - scan_ports:266 -   详细信息 - CPU: 0.0%, 内存: 89.1MB (0.1%), 线程数: 11
+2025-06-09 13:27:34,989 - PortScanner - DEBUG - scan_ports:267 -   命令行: /home/ubuntu/.vm-daemon/bin/vm-daemon/node /home/ubuntu/.vm-daemon/bin/vm-daemon/dist/index.cjs 26053...
+2025-06-09 13:27:34,989 - PortScanner - INFO - scan_ports:280 - 扫描完成，总耗时: 0.211秒
+2025-06-09 13:27:34,989 - PortScanner - INFO - scan_ports:281 - 扫描统计:
+2025-06-09 13:27:34,989 - PortScanner - INFO - scan_ports:282 -   - 总连接数: 15
+2025-06-09 13:27:34,989 - PortScanner - INFO - scan_ports:283 -   - IPv4连接: 11, IPv6连接: 4
+2025-06-09 13:27:34,989 - PortScanner - INFO - scan_ports:284 -   - 监听状态: 2
+2025-06-09 13:27:34,989 - PortScanner - INFO - scan_ports:285 -   - 已建立连接: 10
+2025-06-09 13:27:34,989 - PortScanner - INFO - scan_ports:286 -   - TIME_WAIT: 3
+2025-06-09 13:27:34,989 - PortScanner - INFO - scan_ports:287 -   - 其他状态: 0
+2025-06-09 13:27:34,989 - PortScanner - INFO - scan_ports:288 -   - 无PID连接: 0
+2025-06-09 13:27:34,989 - PortScanner - INFO - scan_ports:289 -   - 权限拒绝: 0
+2025-06-09 13:27:34,989 - PortScanner - INFO - scan_ports:290 -   - 匹配的端口: 2
+2025-06-09 13:27:35,089 - PortScanner - DEBUG - main:329 - 结束时CPU使用率: 1.3%
+2025-06-09 13:27:35,089 - PortScanner - DEBUG - main:330 - 结束时内存使用: 2.4%
+2025-06-09 13:27:35,090 - PortScanner - INFO - main:332 - 端口扫描工具正常退出
+2025-06-09 13:27:35,090 - PortScanner - INFO - main:333 - ============================================================

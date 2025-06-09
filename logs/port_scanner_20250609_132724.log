@@ -1,0 +1,32 @@
+2025-06-09 13:27:24,424 - PortScanner - INFO - setup_logging:49 - 日志系统初始化完成，日志级别: INFO
+2025-06-09 13:27:24,425 - PortScanner - INFO - setup_logging:52 - 操作系统: Linux 6.8.0-1024-aws (Linux-6.8.0-1024-aws-x86_64-with-glibc2.41)
+2025-06-09 13:27:24,425 - PortScanner - INFO - setup_logging:53 - Python版本: 3.13.3
+2025-06-09 13:27:24,425 - PortScanner - INFO - setup_logging:54 - 主机名: cursor
+2025-06-09 13:27:24,425 - PortScanner - INFO - setup_logging:55 - 当前用户: ubuntu
+2025-06-09 13:27:24,425 - PortScanner - INFO - setup_logging:56 - 工作目录: /workspace
+2025-06-09 13:27:24,425 - PortScanner - INFO - setup_logging:57 - 进程ID: 27692
+2025-06-09 13:27:24,426 - PortScanner - INFO - setup_logging:62 - CPU核心数: 16 (物理: 8)
+2025-06-09 13:27:24,426 - PortScanner - INFO - setup_logging:63 - 内存总量: 123.79 GB, 可用: 120.81 GB
+2025-06-09 13:27:24,426 - PortScanner - INFO - main:312 - ============================================================
+2025-06-09 13:27:24,426 - PortScanner - INFO - main:313 - 端口扫描工具启动
+2025-06-09 13:27:24,426 - PortScanner - INFO - main:314 - ============================================================
+2025-06-09 13:27:24,526 - PortScanner - INFO - scan_ports:176 - 开始扫描端口，过滤条件 - 端口: None, 进程名: None
+2025-06-09 13:27:24,526 - PortScanner - INFO - scan_ports:180 - 当前用户权限: 普通用户
+2025-06-09 13:27:24,526 - PortScanner - WARNING - scan_ports:182 - 以普通用户权限运行，某些端口信息可能无法获取
+2025-06-09 13:27:24,526 - PortScanner - INFO - get_local_ip:157 - 成功获取本机IP地址: 172.17.0.2 (耗时: 0.000秒)
+2025-06-09 13:27:24,534 - PortScanner - INFO - scan_ports:197 - 获取到 14 个网络连接 (耗时: 0.008秒)
+2025-06-09 13:27:24,635 - PortScanner - INFO - scan_ports:265 - 找到匹配的端口: 26053 - node (PID: 859)
+2025-06-09 13:27:24,736 - PortScanner - INFO - scan_ports:265 - 找到匹配的端口: 26054 - node (PID: 1227)
+2025-06-09 13:27:24,736 - PortScanner - INFO - scan_ports:280 - 扫描完成，总耗时: 0.210秒
+2025-06-09 13:27:24,736 - PortScanner - INFO - scan_ports:281 - 扫描统计:
+2025-06-09 13:27:24,736 - PortScanner - INFO - scan_ports:282 -   - 总连接数: 14
+2025-06-09 13:27:24,736 - PortScanner - INFO - scan_ports:283 -   - IPv4连接: 11, IPv6连接: 3
+2025-06-09 13:27:24,736 - PortScanner - INFO - scan_ports:284 -   - 监听状态: 2
+2025-06-09 13:27:24,736 - PortScanner - INFO - scan_ports:285 -   - 已建立连接: 10
+2025-06-09 13:27:24,736 - PortScanner - INFO - scan_ports:286 -   - TIME_WAIT: 2
+2025-06-09 13:27:24,736 - PortScanner - INFO - scan_ports:287 -   - 其他状态: 0
+2025-06-09 13:27:24,736 - PortScanner - INFO - scan_ports:288 -   - 无PID连接: 0
+2025-06-09 13:27:24,736 - PortScanner - INFO - scan_ports:289 -   - 权限拒绝: 0
+2025-06-09 13:27:24,736 - PortScanner - INFO - scan_ports:290 -   - 匹配的端口: 2
+2025-06-09 13:27:24,836 - PortScanner - INFO - main:332 - 端口扫描工具正常退出
+2025-06-09 13:27:24,836 - PortScanner - INFO - main:333 - ============================================================
