@@ -1,0 +1,44 @@
+2025-06-09 10:21:08,354 - PortScanner - INFO - setup_logging:46 - 日志系统初始化完成，日志级别: DEBUG
+2025-06-09 10:21:08,354 - PortScanner - INFO - main:175 - 端口扫描工具启动
+2025-06-09 10:21:08,354 - PortScanner - DEBUG - main:176 - 命令行参数: {'port': None, 'name': None, 'all': False, 'log_level': 'DEBUG'}
+2025-06-09 10:21:08,354 - PortScanner - INFO - scan_ports:108 - 开始扫描端口，过滤条件 - 端口: None, 进程名: None
+2025-06-09 10:21:08,354 - PortScanner - DEBUG - get_local_ip:80 - 开始获取本机IP地址
+2025-06-09 10:21:08,354 - PortScanner - DEBUG - get_local_ip:84 - 网关信息: {'default': {2: ('172.17.0.1', 'eth0')}, 2: [('172.17.0.1', 'eth0', True)]}
+2025-06-09 10:21:08,354 - PortScanner - DEBUG - get_local_ip:91 - 默认网络接口: eth0
+2025-06-09 10:21:08,354 - PortScanner - INFO - get_local_ip:97 - 成功获取本机IP地址: 172.17.0.2
+2025-06-09 10:21:08,354 - PortScanner - DEBUG - scan_ports:117 - 开始获取网络连接列表
+2025-06-09 10:21:08,362 - PortScanner - INFO - scan_ports:119 - 获取到 14 个网络连接
+2025-06-09 10:21:08,362 - PortScanner - DEBUG - scan_ports:123 - 处理连接: sconn(fd=30, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='172.17.0.2', port=45260), raddr=addr(ip='172.66.40.171', port=443), status='ESTABLISHED', pid=960)
+2025-06-09 10:21:08,362 - PortScanner - DEBUG - scan_ports:126 - 跳过非监听状态的连接: ESTABLISHED
+2025-06-09 10:21:08,362 - PortScanner - DEBUG - scan_ports:123 - 处理连接: sconn(fd=61, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='172.17.0.2', port=44926), raddr=addr(ip='104.18.18.125', port=443), status='ESTABLISHED', pid=1275)
+2025-06-09 10:21:08,362 - PortScanner - DEBUG - scan_ports:126 - 跳过非监听状态的连接: ESTABLISHED
+2025-06-09 10:21:08,362 - PortScanner - DEBUG - scan_ports:123 - 处理连接: sconn(fd=19, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='0.0.0.0', port=26054), raddr=(), status='LISTEN', pid=1227)
+2025-06-09 10:21:08,362 - PortScanner - DEBUG - get_process_info:54 - 开始获取进程信息，PID: 1227
+2025-06-09 10:21:08,362 - PortScanner - DEBUG - get_process_info:63 - 成功获取进程信息: {'name': 'node', 'pid': 1227, 'create_time': '2025-06-09 10:18:30', 'status': 'sleeping'}
+2025-06-09 10:21:08,362 - PortScanner - INFO - scan_ports:148 - 找到匹配的端口: 26054 - node (PID: 1227)
+2025-06-09 10:21:08,362 - PortScanner - DEBUG - scan_ports:123 - 处理连接: sconn(fd=23, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='172.17.0.2', port=26054), raddr=addr(ip='172.17.0.1', port=39684), status='ESTABLISHED', pid=1227)
+2025-06-09 10:21:08,362 - PortScanner - DEBUG - scan_ports:126 - 跳过非监听状态的连接: ESTABLISHED
+2025-06-09 10:21:08,362 - PortScanner - DEBUG - scan_ports:123 - 处理连接: sconn(fd=25, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='172.17.0.2', port=39580), raddr=addr(ip='52.23.120.33', port=443), status='ESTABLISHED', pid=960)
+2025-06-09 10:21:08,363 - PortScanner - DEBUG - scan_ports:126 - 跳过非监听状态的连接: ESTABLISHED
+2025-06-09 10:21:08,363 - PortScanner - DEBUG - scan_ports:123 - 处理连接: sconn(fd=20, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='172.17.0.2', port=36688), raddr=addr(ip='142.251.46.174', port=443), status='ESTABLISHED', pid=960)
+2025-06-09 10:21:08,363 - PortScanner - DEBUG - scan_ports:126 - 跳过非监听状态的连接: ESTABLISHED
+2025-06-09 10:21:08,363 - PortScanner - DEBUG - scan_ports:123 - 处理连接: sconn(fd=26, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='172.17.0.2', port=44788), raddr=addr(ip='18.208.233.7', port=443), status='ESTABLISHED', pid=960)
+2025-06-09 10:21:08,363 - PortScanner - DEBUG - scan_ports:126 - 跳过非监听状态的连接: ESTABLISHED
+2025-06-09 10:21:08,363 - PortScanner - DEBUG - scan_ports:123 - 处理连接: sconn(fd=26, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='172.17.0.2', port=26054), raddr=addr(ip='172.17.0.1', port=39700), status='ESTABLISHED', pid=2366)
+2025-06-09 10:21:08,363 - PortScanner - DEBUG - scan_ports:126 - 跳过非监听状态的连接: ESTABLISHED
+2025-06-09 10:21:08,363 - PortScanner - DEBUG - scan_ports:123 - 处理连接: sconn(fd=18, family=<AddressFamily.AF_INET6: 10>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='::', port=26053), raddr=(), status='LISTEN', pid=859)
+2025-06-09 10:21:08,363 - PortScanner - DEBUG - get_process_info:54 - 开始获取进程信息，PID: 859
+2025-06-09 10:21:08,363 - PortScanner - DEBUG - get_process_info:63 - 成功获取进程信息: {'name': 'node', 'pid': 859, 'create_time': '2025-06-09 10:18:13', 'status': 'sleeping'}
+2025-06-09 10:21:08,363 - PortScanner - INFO - scan_ports:148 - 找到匹配的端口: 26053 - node (PID: 859)
+2025-06-09 10:21:08,363 - PortScanner - DEBUG - scan_ports:123 - 处理连接: sconn(fd=77, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='172.17.0.2', port=48194), raddr=addr(ip='34.193.251.90', port=443), status='ESTABLISHED', pid=1275)
+2025-06-09 10:21:08,363 - PortScanner - DEBUG - scan_ports:126 - 跳过非监听状态的连接: ESTABLISHED
+2025-06-09 10:21:08,363 - PortScanner - DEBUG - scan_ports:123 - 处理连接: sconn(fd=22, family=<AddressFamily.AF_INET6: 10>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='::ffff:172.17.0.2', port=26053), raddr=addr(ip='::ffff:172.17.0.1', port=34274), status='ESTABLISHED', pid=859)
+2025-06-09 10:21:08,363 - PortScanner - DEBUG - scan_ports:126 - 跳过非监听状态的连接: ESTABLISHED
+2025-06-09 10:21:08,363 - PortScanner - DEBUG - scan_ports:123 - 处理连接: sconn(fd=44, family=<AddressFamily.AF_INET: 2>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='172.17.0.2', port=52002), raddr=addr(ip='44.195.51.95', port=443), status='ESTABLISHED', pid=2366)
+2025-06-09 10:21:08,363 - PortScanner - DEBUG - scan_ports:126 - 跳过非监听状态的连接: ESTABLISHED
+2025-06-09 10:21:08,363 - PortScanner - DEBUG - scan_ports:123 - 处理连接: sconn(fd=-1, family=<AddressFamily.AF_INET6: 10>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='::ffff:172.17.0.2', port=26053), raddr=addr(ip='::ffff:172.17.0.1', port=54816), status='TIME_WAIT', pid=None)
+2025-06-09 10:21:08,363 - PortScanner - DEBUG - scan_ports:126 - 跳过非监听状态的连接: TIME_WAIT
+2025-06-09 10:21:08,363 - PortScanner - DEBUG - scan_ports:123 - 处理连接: sconn(fd=-1, family=<AddressFamily.AF_INET6: 10>, type=<SocketKind.SOCK_STREAM: 1>, laddr=addr(ip='::ffff:172.17.0.2', port=26053), raddr=addr(ip='::ffff:172.17.0.1', port=41224), status='TIME_WAIT', pid=None)
+2025-06-09 10:21:08,363 - PortScanner - DEBUG - scan_ports:126 - 跳过非监听状态的连接: TIME_WAIT
+2025-06-09 10:21:08,363 - PortScanner - INFO - scan_ports:158 - 扫描完成，共找到 2 个匹配的端口
+2025-06-09 10:21:08,363 - PortScanner - INFO - main:180 - 端口扫描工具正常退出

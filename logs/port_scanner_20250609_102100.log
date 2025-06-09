@@ -1,0 +1,7 @@
+2025-06-09 10:21:00,752 - PortScanner - INFO - setup_logging:46 - 日志系统初始化完成，日志级别: INFO
+2025-06-09 10:21:00,752 - PortScanner - INFO - main:175 - 端口扫描工具启动
+2025-06-09 10:21:00,752 - PortScanner - INFO - scan_ports:108 - 开始扫描端口，过滤条件 - 端口: 22, 进程名: None
+2025-06-09 10:21:00,753 - PortScanner - INFO - get_local_ip:97 - 成功获取本机IP地址: 172.17.0.2
+2025-06-09 10:21:00,761 - PortScanner - INFO - scan_ports:119 - 获取到 15 个网络连接
+2025-06-09 10:21:00,761 - PortScanner - INFO - scan_ports:158 - 扫描完成，共找到 0 个匹配的端口
+2025-06-09 10:21:00,761 - PortScanner - INFO - main:180 - 端口扫描工具正常退出
