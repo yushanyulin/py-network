@@ -1,0 +1,14 @@
+2025-06-10 02:20:25 - PortScanner - INFO - 日志系统初始化完成，日志级别: INFO, 日志文件: logs/port_scanner_20250610_022025.log
+2025-06-10 02:20:25 - PortScanner - INFO - ============================================================
+2025-06-10 02:20:25 - PortScanner - INFO - 端口扫描工具启动
+2025-06-10 02:20:25 - PortScanner - INFO - 命令行参数: {'port': 22, 'name': None, 'all': False, 'log_level': 'INFO', 'log_file': None}
+2025-06-10 02:20:25 - PortScanner - INFO - Python版本: 3.13.3 (main, Apr  8 2025, 19:55:40) [GCC 14.2.0]
+2025-06-10 02:20:25 - PortScanner - INFO - 操作系统: posix
+2025-06-10 02:20:25 - PortScanner - INFO - ============================================================
+2025-06-10 02:20:25 - PortScanner - INFO - 开始端口扫描
+2025-06-10 02:20:25 - PortScanner - INFO - 扫描参数 - 指定端口: 22, 进程名称过滤: None
+2025-06-10 02:20:25 - PortScanner - INFO - 成功获取本地IP地址: 172.17.0.2
+2025-06-10 02:20:25 - PortScanner - INFO - 获取到 11 个网络连接
+2025-06-10 02:20:25 - PortScanner - INFO - 扫描完成 - 总连接数: 11, 监听端口数: 2, 匹配结果数: 0
+2025-06-10 02:20:25 - PortScanner - INFO - 端口扫描正常结束
+2025-06-10 02:20:25 - PortScanner - INFO - 程序退出
